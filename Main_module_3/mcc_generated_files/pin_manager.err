@@ -1,0 +1,6 @@
+Error[18]   C:\Users\Barnie\Documents\Projects\Boom_Box\Main_module_3\mcc_generated_files\pin_manager.h 54 : File can not be opened
+    Not in source "C:\Users\Barnie\Documents\Projects\Boom_Box\Main_module_3\mcc_generated_files\xc.h"
+    Not in local "xc.h"
+    Not in project "C:\Users\Barnie\Documents\Projects\Boom_Box\Main_module_3\mcc_generated_files\xc.h"
+      1 Errors,  0 Warnings.
+Build Failed.
