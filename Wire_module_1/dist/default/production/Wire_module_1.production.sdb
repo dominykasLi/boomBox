@@ -1,0 +1,388 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K22 ]
+[d frameptr 4065 ]
+"4 D:\MPLABX\XC\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 D:\MPLABX\XC\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 D:\MPLABX\XC\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\MPLABX\XC\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\MPLABX\XC\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\MPLABX\XC\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 D:\MPLABX\XC\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\MPLABX\XC\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\MPLABX\XC\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 D:\MPLABX\XC\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\MPLABX\XC\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"13 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\i2c_slave.c
+[v _get_led_status get_led_status `(v  1 e 1 0 ]
+"26
+[v _get_series get_series `(v  1 e 1 0 ]
+"33
+[v _state_machine state_machine `(v  1 e 1 0 ]
+"58
+[v _I2C_Slave_Read I2C_Slave_Read `IIH(v  1 e 1 0 ]
+"103
+[v _data_to_send data_to_send `(v  1 e 1 0 ]
+"107
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+"32 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"66 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"557 D:\MPLABX\XC\pic\include\pic18f14k22.h
+[v _WPUA WPUA `VEuc  1 e 1 @3959 ]
+"615
+[v _WPUB WPUB `VEuc  1 e 1 @3960 ]
+"769
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"889
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+"1542
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1620
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1686
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S281 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1713
+[s S290 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S299 . 1 `S281 1 . 1 0 `S290 1 . 1 0 ]
+[v _LATCbits LATCbits `VES299  1 e 1 @3979 ]
+"1798
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S209 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1826
+[s S216 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+[u S223 . 1 `S209 1 . 1 0 `S216 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES223  1 e 1 @3986 ]
+"1952
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2082
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S241 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2114
+[s S250 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S259 . 1 `S241 1 . 1 0 `S250 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES259  1 e 1 @3988 ]
+"2304
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"4598
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"4660
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S409 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4680
+[s S415 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S420 . 1 `S409 1 . 1 0 `S415 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES420  1 e 1 @4038 ]
+"4730
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S436 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4806
+[s S439 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S442 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S451 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S456 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S461 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S466 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S471 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S474 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S477 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S482 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S488 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S493 . 1 `S436 1 . 1 0 `S439 1 . 1 0 `S442 1 . 1 0 `S451 1 . 1 0 `S456 1 . 1 0 `S461 1 . 1 0 `S466 1 . 1 0 `S471 1 . 1 0 `S474 1 . 1 0 `S477 1 . 1 0 `S482 1 . 1 0 `S488 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES493  1 e 1 @4039 ]
+"4951
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"4958
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5438
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"5470
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"5553
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S83 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"5573
+[s S90 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S94 . 1 `S83 1 . 1 0 `S90 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES94  1 e 1 @4053 ]
+"5630
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"5637
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S158 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RABPU 1 0 :1:7 
+]
+"6028
+[s S161 . 1 `uc 1 RABIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRABPU 1 0 :1:7 
+]
+[s S170 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RABPU 1 0 :1:7 
+]
+[s S174 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+[s S177 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[u S180 . 1 `S158 1 . 1 0 `S161 1 . 1 0 `S170 1 . 1 0 `S174 1 . 1 0 `S177 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES180  1 e 1 @4081 ]
+[s S26 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6124
+[s S35 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S44 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S48 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PIE 1 0 :1:6 
+]
+[u S51 . 1 `S26 1 . 1 0 `S35 1 . 1 0 `S44 1 . 1 0 `S48 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES51  1 e 1 @4082 ]
+"6952
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"7372
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"7711
+[v _SSPIE SSPIE `VEb  1 e 0 @31979 ]
+"7714
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"6 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\i2c_slave.c
+[v _z z `s  1 e 2 0 ]
+"7
+[v _received received `i  1 e 2 0 ]
+"8
+[v _value_to_send value_to_send `i  1 e 2 0 ]
+"9
+[v _sent_state sent_state `i  1 e 2 0 ]
+"10
+[v _series series `[8]uc  1 e 8 0 ]
+"22 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\main.c
+[v _hp hp `i  1 e 2 0 ]
+"23
+[v _min min `i  1 e 2 0 ]
+"24
+[v _sec sec `i  1 e 2 0 ]
+"59 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"32 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+[v main@correct_wires_left correct_wires_left `i  1 a 2 17 ]
+"47
+} 0
+"26 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\i2c_slave.c
+[v _get_series get_series `(v  1 e 1 0 ]
+{
+[v get_series@leds leds `*.39uc  1 p 2 15 ]
+"31
+} 0
+"103
+[v _data_to_send data_to_send `(v  1 e 1 0 ]
+{
+[v data_to_send@data data `i  1 p 2 15 ]
+"105
+} 0
+"50 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"66 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"55 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"58 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"107 C:\Users\Barnie\Documents\Projects\Boom_Box\Wire_module_1\i2c_slave.c
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+{
+[v I2C_Slave_Init@address address `s  1 p 2 15 ]
+"125
+} 0
+"58
+[v _I2C_Slave_Read I2C_Slave_Read `IIH(v  1 e 1 0 ]
+{
+"100
+} 0
+"33
+[v _state_machine state_machine `(v  1 e 1 0 ]
+{
+[v state_machine@value value `i  1 p 2 11 ]
+"56
+} 0
+"13
+[v _get_led_status get_led_status `(v  1 e 1 0 ]
+{
+"14
+[v get_led_status@c c `i  1 a 2 9 ]
+"15
+[v get_led_status@bin bin `i  1 a 2 7 ]
+"14
+[v get_led_status@k k `i  1 a 2 5 ]
+"13
+[v get_led_status@incoming incoming `i  1 p 2 0 ]
+"24
+} 0
